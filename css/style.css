@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Header Menu */
+.header {
+    background: rgb(6, 7, 27);
+}
+
+.header-menu {
+
+    backdrop-filter: blur(35px);
+    background: linear-gradient(98.75deg, rgba(0, 197, 235, 0.3) -1.974%,rgba(181, 68, 254, 0.3) 89.434%);
+
+    padding: 15px;
+    margin-top: 1%;
+}
+
+.logo_img {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.menu-bar {
+    display: flex;
+    gap: 50px;
+    margin-top: -50px;
+    margin-left: 64.5%;
+    margin-bottom: 10px;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    
+}
